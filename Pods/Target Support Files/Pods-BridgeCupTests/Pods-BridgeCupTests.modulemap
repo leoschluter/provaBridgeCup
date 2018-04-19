@@ -1,0 +1,6 @@
+framework module Pods_BridgeCupTests {
+  umbrella header "Pods-BridgeCupTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

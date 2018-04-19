@@ -1,0 +1,6 @@
+framework module Pods_BridgeCup {
+  umbrella header "Pods-BridgeCup-umbrella.h"
+
+  export *
+  module * { export * }
+}

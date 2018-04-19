@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00EA32B8E4FB88944BB0EB04 /* Pods_BridgeCup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A55BAC72AC6E2FBDFB5B350 /* Pods_BridgeCup.framework */; };
+		0A968387BF2A6049ECCDA27A /* Pods_BridgeCupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464E7650E70C218B7FD833AE /* Pods_BridgeCupTests.framework */; };
+		3484FDF1600399D22ED00FF0 /* Pods_BridgeCupUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CC55F55E8EF3416A0C8716 /* Pods_BridgeCupUITests.framework */; };
 		8235DBF220877FA400CBCD20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8235DBF120877FA400CBCD20 /* AppDelegate.swift */; };
 		8235DBF420877FA400CBCD20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8235DBF320877FA400CBCD20 /* ViewController.swift */; };
 		8235DBF720877FA400CBCD20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8235DBF520877FA400CBCD20 /* Main.storyboard */; };
@@ -14,6 +17,12 @@
 		8235DBFC20877FA400CBCD20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8235DBFA20877FA400CBCD20 /* LaunchScreen.storyboard */; };
 		8235DC0720877FA400CBCD20 /* BridgeCupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8235DC0620877FA400CBCD20 /* BridgeCupTests.swift */; };
 		8235DC1220877FA400CBCD20 /* BridgeCupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8235DC1120877FA400CBCD20 /* BridgeCupUITests.swift */; };
+		CDE6325B4495267675CF43FB /* GrupoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE63AEB1885C13488F15B88 /* GrupoTableViewCell.swift */; };
+		CDE6336DC169D72AA32A6FC7 /* BridgeCupRestClientUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE63A83E81069B11BCE223F /* BridgeCupRestClientUtil.swift */; };
+		CDE6339F7596C76F09713140 /* Grupo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE63042C14ED6FDC3A7B933 /* Grupo.swift */; };
+		CDE633CBE092A317CF3780BC /* DownloadFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE632EF57388B62FB6AF1C1 /* DownloadFromURL.swift */; };
+		CDE6359454EC299D9C957C9F /* Selecao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6399094AE629F8CE0DC64 /* Selecao.swift */; };
+		CDE6387B56FE9CDFB47D8145 /* SyncGrupos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6324106AC5F80DBD75E77 /* SyncGrupos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		464E7650E70C218B7FD833AE /* Pods_BridgeCupTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BridgeCupTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA9EDD9FB7FE88124692510 /* Pods-BridgeCupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BridgeCupTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BridgeCupTests/Pods-BridgeCupTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A55BAC72AC6E2FBDFB5B350 /* Pods_BridgeCup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BridgeCup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8235DBEE20877FA400CBCD20 /* BridgeCup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgeCup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8235DBF120877FA400CBCD20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8235DBF320877FA400CBCD20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,18 @@
 		8235DC0D20877FA400CBCD20 /* BridgeCupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgeCupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8235DC1120877FA400CBCD20 /* BridgeCupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeCupUITests.swift; sourceTree = "<group>"; };
 		8235DC1320877FA400CBCD20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F31037BA213699B641272C2 /* Pods-BridgeCup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BridgeCup.release.xcconfig"; path = "Pods/Target Support Files/Pods-BridgeCup/Pods-BridgeCup.release.xcconfig"; sourceTree = "<group>"; };
+		A2D9FFCBDCE5D69BBC62A6AA /* Pods-BridgeCupUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BridgeCupUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BridgeCupUITests/Pods-BridgeCupUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0349186111D78A5BD90E24A /* Pods-BridgeCupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BridgeCupTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BridgeCupTests/Pods-BridgeCupTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0CC55F55E8EF3416A0C8716 /* Pods_BridgeCupUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BridgeCupUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE63042C14ED6FDC3A7B933 /* Grupo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grupo.swift; sourceTree = "<group>"; };
+		CDE6324106AC5F80DBD75E77 /* SyncGrupos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncGrupos.swift; sourceTree = "<group>"; };
+		CDE632EF57388B62FB6AF1C1 /* DownloadFromURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadFromURL.swift; sourceTree = "<group>"; };
+		CDE6399094AE629F8CE0DC64 /* Selecao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Selecao.swift; sourceTree = "<group>"; };
+		CDE63A83E81069B11BCE223F /* BridgeCupRestClientUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeCupRestClientUtil.swift; sourceTree = "<group>"; };
+		CDE63AEB1885C13488F15B88 /* GrupoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrupoTableViewCell.swift; sourceTree = "<group>"; };
+		DED0DCC03241F46A25C19EDF /* Pods-BridgeCupUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BridgeCupUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BridgeCupUITests/Pods-BridgeCupUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9FAC673861620C2B4069EEE /* Pods-BridgeCup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BridgeCup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BridgeCup/Pods-BridgeCup.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00EA32B8E4FB88944BB0EB04 /* Pods_BridgeCup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A968387BF2A6049ECCDA27A /* Pods_BridgeCupTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +94,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3484FDF1600399D22ED00FF0 /* Pods_BridgeCupUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7844233C3BB00F3AA5FCA5D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9FAC673861620C2B4069EEE /* Pods-BridgeCup.debug.xcconfig */,
+				8F31037BA213699B641272C2 /* Pods-BridgeCup.release.xcconfig */,
+				B0349186111D78A5BD90E24A /* Pods-BridgeCupTests.debug.xcconfig */,
+				5AA9EDD9FB7FE88124692510 /* Pods-BridgeCupTests.release.xcconfig */,
+				A2D9FFCBDCE5D69BBC62A6AA /* Pods-BridgeCupUITests.debug.xcconfig */,
+				DED0DCC03241F46A25C19EDF /* Pods-BridgeCupUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8235DBE520877FA400CBCD20 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				8235DC0520877FA400CBCD20 /* BridgeCupTests */,
 				8235DC1020877FA400CBCD20 /* BridgeCupUITests */,
 				8235DBEF20877FA400CBCD20 /* Products */,
+				7844233C3BB00F3AA5FCA5D3 /* Pods */,
+				B3156712CF58FB927EFCB32E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +139,15 @@
 		8235DBF020877FA400CBCD20 /* BridgeCup */ = {
 			isa = PBXGroup;
 			children = (
+				8235DC202087A0F200CBCD20 /* model */,
+				8235DC1F2087815000CBCD20 /* sync */,
 				8235DBF120877FA400CBCD20 /* AppDelegate.swift */,
 				8235DBF320877FA400CBCD20 /* ViewController.swift */,
 				8235DBF520877FA400CBCD20 /* Main.storyboard */,
 				8235DBF820877FA400CBCD20 /* Assets.xcassets */,
 				8235DBFA20877FA400CBCD20 /* LaunchScreen.storyboard */,
 				8235DBFD20877FA400CBCD20 /* Info.plist */,
+				CDE63AEB1885C13488F15B88 /* GrupoTableViewCell.swift */,
 			);
 			path = BridgeCup;
 			sourceTree = "<group>";
@@ -125,6 +170,35 @@
 			path = BridgeCupUITests;
 			sourceTree = "<group>";
 		};
+		8235DC1F2087815000CBCD20 /* sync */ = {
+			isa = PBXGroup;
+			children = (
+				CDE63A83E81069B11BCE223F /* BridgeCupRestClientUtil.swift */,
+				CDE6324106AC5F80DBD75E77 /* SyncGrupos.swift */,
+				CDE632EF57388B62FB6AF1C1 /* DownloadFromURL.swift */,
+			);
+			path = sync;
+			sourceTree = "<group>";
+		};
+		8235DC202087A0F200CBCD20 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CDE63042C14ED6FDC3A7B933 /* Grupo.swift */,
+				CDE6399094AE629F8CE0DC64 /* Selecao.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B3156712CF58FB927EFCB32E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A55BAC72AC6E2FBDFB5B350 /* Pods_BridgeCup.framework */,
+				464E7650E70C218B7FD833AE /* Pods_BridgeCupTests.framework */,
+				B0CC55F55E8EF3416A0C8716 /* Pods_BridgeCupUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8235DC1620877FA400CBCD20 /* Build configuration list for PBXNativeTarget "BridgeCup" */;
 			buildPhases = (
+				A7632552EF8CBA66B9649B7E /* [CP] Check Pods Manifest.lock */,
 				8235DBEA20877FA400CBCD20 /* Sources */,
 				8235DBEB20877FA400CBCD20 /* Frameworks */,
 				8235DBEC20877FA400CBCD20 /* Resources */,
+				C5BA6F8E4B185B3B3DC42758 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8235DC1920877FA400CBCD20 /* Build configuration list for PBXNativeTarget "BridgeCupTests" */;
 			buildPhases = (
+				59F2A7895D07F142526CB004 /* [CP] Check Pods Manifest.lock */,
 				8235DBFE20877FA400CBCD20 /* Sources */,
 				8235DBFF20877FA400CBCD20 /* Frameworks */,
 				8235DC0020877FA400CBCD20 /* Resources */,
@@ -167,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8235DC1C20877FA400CBCD20 /* Build configuration list for PBXNativeTarget "BridgeCupUITests" */;
 			buildPhases = (
+				472626AE99BB7E7977EB4CEF /* [CP] Check Pods Manifest.lock */,
 				8235DC0920877FA400CBCD20 /* Sources */,
 				8235DC0A20877FA400CBCD20 /* Frameworks */,
 				8235DC0B20877FA400CBCD20 /* Resources */,
@@ -254,6 +332,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		472626AE99BB7E7977EB4CEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BridgeCupUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59F2A7895D07F142526CB004 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BridgeCupTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7632552EF8CBA66B9649B7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BridgeCup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5BA6F8E4B185B3B3DC42758 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BridgeCup/Pods-BridgeCup-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BridgeCup/Pods-BridgeCup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8235DBEA20877FA400CBCD20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +414,12 @@
 			files = (
 				8235DBF420877FA400CBCD20 /* ViewController.swift in Sources */,
 				8235DBF220877FA400CBCD20 /* AppDelegate.swift in Sources */,
+				CDE6336DC169D72AA32A6FC7 /* BridgeCupRestClientUtil.swift in Sources */,
+				CDE6387B56FE9CDFB47D8145 /* SyncGrupos.swift in Sources */,
+				CDE6339F7596C76F09713140 /* Grupo.swift in Sources */,
+				CDE6359454EC299D9C957C9F /* Selecao.swift in Sources */,
+				CDE6325B4495267675CF43FB /* GrupoTableViewCell.swift in Sources */,
+				CDE633CBE092A317CF3780BC /* DownloadFromURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +583,14 @@
 		};
 		8235DC1720877FA400CBCD20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9FAC673861620C2B4069EEE /* Pods-BridgeCup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U3N52Z5982;
 				INFOPLIST_FILE = BridgeCup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Brdige.BridgeCup;
+				PRODUCT_BUNDLE_IDENTIFIER = Bridge.BridgeCup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -439,13 +599,14 @@
 		};
 		8235DC1820877FA400CBCD20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F31037BA213699B641272C2 /* Pods-BridgeCup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U3N52Z5982;
 				INFOPLIST_FILE = BridgeCup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Brdige.BridgeCup;
+				PRODUCT_BUNDLE_IDENTIFIER = Bridge.BridgeCup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,6 +615,7 @@
 		};
 		8235DC1A20877FA400CBCD20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0349186111D78A5BD90E24A /* Pods-BridgeCupTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +633,7 @@
 		};
 		8235DC1B20877FA400CBCD20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA9EDD9FB7FE88124692510 /* Pods-BridgeCupTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +651,7 @@
 		};
 		8235DC1D20877FA400CBCD20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D9FFCBDCE5D69BBC62A6AA /* Pods-BridgeCupUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +668,7 @@
 		};
 		8235DC1E20877FA400CBCD20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED0DCC03241F46A25C19EDF /* Pods-BridgeCupUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
