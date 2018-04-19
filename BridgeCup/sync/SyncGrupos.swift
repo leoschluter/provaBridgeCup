@@ -22,7 +22,8 @@ class SyncGrupos {
             switch response.result {
             case .success:
                 guard let jsonString = response.result.value else {
-                    print("EITA")
+                    print(" Requisição com resposta vazia.")
+                    self.listener.onGruposSyncFinished(grupos: [])
                     return
                 }
 

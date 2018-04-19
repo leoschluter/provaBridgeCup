@@ -11,7 +11,7 @@
 		0A968387BF2A6049ECCDA27A /* Pods_BridgeCupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464E7650E70C218B7FD833AE /* Pods_BridgeCupTests.framework */; };
 		3484FDF1600399D22ED00FF0 /* Pods_BridgeCupUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CC55F55E8EF3416A0C8716 /* Pods_BridgeCupUITests.framework */; };
 		8235DBF220877FA400CBCD20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8235DBF120877FA400CBCD20 /* AppDelegate.swift */; };
-		8235DBF420877FA400CBCD20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8235DBF320877FA400CBCD20 /* ViewController.swift */; };
+		8235DBF420877FA400CBCD20 /* GruposViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8235DBF320877FA400CBCD20 /* GruposViewController.swift */; };
 		8235DBF720877FA400CBCD20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8235DBF520877FA400CBCD20 /* Main.storyboard */; };
 		8235DBF920877FA400CBCD20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8235DBF820877FA400CBCD20 /* Assets.xcassets */; };
 		8235DBFC20877FA400CBCD20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8235DBFA20877FA400CBCD20 /* LaunchScreen.storyboard */; };
@@ -21,7 +21,9 @@
 		CDE6336DC169D72AA32A6FC7 /* BridgeCupRestClientUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE63A83E81069B11BCE223F /* BridgeCupRestClientUtil.swift */; };
 		CDE6339F7596C76F09713140 /* Grupo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE63042C14ED6FDC3A7B933 /* Grupo.swift */; };
 		CDE633CBE092A317CF3780BC /* DownloadFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE632EF57388B62FB6AF1C1 /* DownloadFromURL.swift */; };
+		CDE63500F4A8ADC2C9598894 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6311A4BDE37953C16B0E6 /* Colors.swift */; };
 		CDE6359454EC299D9C957C9F /* Selecao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6399094AE629F8CE0DC64 /* Selecao.swift */; };
+		CDE6379C1F7D58026E68F3A7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6363BDB1C35E6D4EE85BF /* CardView.swift */; };
 		CDE6387B56FE9CDFB47D8145 /* SyncGrupos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6324106AC5F80DBD75E77 /* SyncGrupos.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +50,7 @@
 		6A55BAC72AC6E2FBDFB5B350 /* Pods_BridgeCup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BridgeCup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8235DBEE20877FA400CBCD20 /* BridgeCup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgeCup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8235DBF120877FA400CBCD20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8235DBF320877FA400CBCD20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8235DBF320877FA400CBCD20 /* GruposViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GruposViewController.swift; sourceTree = "<group>"; };
 		8235DBF620877FA400CBCD20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8235DBF820877FA400CBCD20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8235DBFB20877FA400CBCD20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,8 +66,10 @@
 		B0349186111D78A5BD90E24A /* Pods-BridgeCupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BridgeCupTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BridgeCupTests/Pods-BridgeCupTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0CC55F55E8EF3416A0C8716 /* Pods_BridgeCupUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BridgeCupUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE63042C14ED6FDC3A7B933 /* Grupo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grupo.swift; sourceTree = "<group>"; };
+		CDE6311A4BDE37953C16B0E6 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		CDE6324106AC5F80DBD75E77 /* SyncGrupos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncGrupos.swift; sourceTree = "<group>"; };
 		CDE632EF57388B62FB6AF1C1 /* DownloadFromURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadFromURL.swift; sourceTree = "<group>"; };
+		CDE6363BDB1C35E6D4EE85BF /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		CDE6399094AE629F8CE0DC64 /* Selecao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Selecao.swift; sourceTree = "<group>"; };
 		CDE63A83E81069B11BCE223F /* BridgeCupRestClientUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeCupRestClientUtil.swift; sourceTree = "<group>"; };
 		CDE63AEB1885C13488F15B88 /* GrupoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrupoTableViewCell.swift; sourceTree = "<group>"; };
@@ -139,10 +143,11 @@
 		8235DBF020877FA400CBCD20 /* BridgeCup */ = {
 			isa = PBXGroup;
 			children = (
+				8235DC2120891A0D00CBCD20 /* utils */,
 				8235DC202087A0F200CBCD20 /* model */,
 				8235DC1F2087815000CBCD20 /* sync */,
 				8235DBF120877FA400CBCD20 /* AppDelegate.swift */,
-				8235DBF320877FA400CBCD20 /* ViewController.swift */,
+				8235DBF320877FA400CBCD20 /* GruposViewController.swift */,
 				8235DBF520877FA400CBCD20 /* Main.storyboard */,
 				8235DBF820877FA400CBCD20 /* Assets.xcassets */,
 				8235DBFA20877FA400CBCD20 /* LaunchScreen.storyboard */,
@@ -187,6 +192,15 @@
 				CDE6399094AE629F8CE0DC64 /* Selecao.swift */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		8235DC2120891A0D00CBCD20 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				CDE6311A4BDE37953C16B0E6 /* Colors.swift */,
+				CDE6363BDB1C35E6D4EE85BF /* CardView.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 		B3156712CF58FB927EFCB32E /* Frameworks */ = {
@@ -412,7 +426,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8235DBF420877FA400CBCD20 /* ViewController.swift in Sources */,
+				8235DBF420877FA400CBCD20 /* GruposViewController.swift in Sources */,
 				8235DBF220877FA400CBCD20 /* AppDelegate.swift in Sources */,
 				CDE6336DC169D72AA32A6FC7 /* BridgeCupRestClientUtil.swift in Sources */,
 				CDE6387B56FE9CDFB47D8145 /* SyncGrupos.swift in Sources */,
@@ -420,6 +434,8 @@
 				CDE6359454EC299D9C957C9F /* Selecao.swift in Sources */,
 				CDE6325B4495267675CF43FB /* GrupoTableViewCell.swift in Sources */,
 				CDE633CBE092A317CF3780BC /* DownloadFromURL.swift in Sources */,
+				CDE63500F4A8ADC2C9598894 /* Colors.swift in Sources */,
+				CDE6379C1F7D58026E68F3A7 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

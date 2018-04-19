@@ -10,7 +10,7 @@ class Selecao: Codable {
     var iconeURL: String
 
     init(){
-        self.sigla = "Test"
-        self.iconeURL = "Test"
+        self.sigla = ""
+        self.iconeURL = ""
     }
 }
