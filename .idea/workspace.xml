@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a2f2d58-32dd-4971-88ba-f5e54e754a91" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BridgeCup/Assets.xcassets/bra.imageset/bra-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BridgeCup/Assets.xcassets/bra.imageset/bra-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BridgeCup/Assets.xcassets/bra.imageset/bra.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BridgeCup/Assets.xcassets/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BridgeCup/Assets.xcassets/bra.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BridgeCup/GrupoTableViewCell.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BridgeCup/model/Grupo.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BridgeCup/model/Selecao.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BridgeCup/sync/BridgeCupRestClientUtil.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BridgeCup/sync/DownloadFromURL.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BridgeCup/sync/SyncGrupos.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BridgeCup.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/BridgeCup.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BridgeCup/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/BridgeCup/Assets.xcassets/AppIcon.appiconset/Contents.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BridgeCup/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/BridgeCup/Base.lproj/Main.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BridgeCup/Info.plist" afterPath="$PROJECT_DIR$/BridgeCup/Info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BridgeCup/ViewController.swift" afterPath="$PROJECT_DIR$/BridgeCup/ViewController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/BridgeCup/sync/DownloadFromURL.swift">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding>
                 <element signature="e#103#120#0" expanded="true" />
               </folding>
@@ -238,12 +222,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524058229158</updated>
       <workItem from="1524058230371" duration="466000" />
-      <workItem from="1524058862697" duration="10658000" />
+      <workItem from="1524058862697" duration="11440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11124000" />
+    <option name="totallyTimeSpent" value="11906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -388,7 +372,7 @@
     <entry file="file://$PROJECT_DIR$/BridgeCup/sync/DownloadFromURL.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
             <element signature="e#103#120#0" expanded="true" />
           </folding>
